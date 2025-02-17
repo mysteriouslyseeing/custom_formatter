@@ -1,0 +1,4 @@
+# rust-analyzer.rustfmt.extraArgs = ["+nightly"] is needed in your LSP settings for this to work.
+unstable_features = true
+wrap_comments = true
+comment_width = 100

@@ -1,0 +1,13 @@
+[workspace]
+members = ["custom_formatter_macro"]
+
+[package]
+name = "custom_formatter"
+version = "0.1.0"
+edition = "2021"
+description = "a generalized version of format_args!"
+license = "MIT"
+
+[dependencies]
+bevy_ptr = "0.15.2"
+custom_formatter_macro = { path = "./custom_formatter_macro" }
