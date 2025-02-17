@@ -5,6 +5,9 @@ proc-macro = true
 name = "custom_formatter_macro"
 version = "0.1.0"
 edition = "2021"
+description = "internal macro for custom_formatter"
+license = "MIT"
+repository = "https://github.com/mysteriouslyseeing/custom_formatter/"
 
 [dependencies]
 syn = "1.0"

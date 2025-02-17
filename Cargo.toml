@@ -7,7 +7,8 @@ version = "0.1.0"
 edition = "2021"
 description = "a generalized version of format_args!"
 license = "MIT"
+repository = "https://github.com/mysteriouslyseeing/custom_formatter/"
 
 [dependencies]
 bevy_ptr = "0.15.2"
-custom_formatter_macro = { path = "./custom_formatter_macro" }
+custom_formatter_macro = { path = "./custom_formatter_macro", version = "0.1.0" }
